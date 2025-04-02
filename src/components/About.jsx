@@ -72,9 +72,8 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      "I'm an ambitious and detail-oriented individual pursuing a career in data analysis. I'm dedicated to expanding my knowledge and skills in data manipulation, SQL querying, statistical analysis and data visualization.
+       I'm a quick learner, possess strong problem-solving abilities, and am excited to embark on a career where I can contribute to data-driven success."
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
