@@ -78,6 +78,10 @@ const technologies = [
     icon: excel,
   },
   {
+    title: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
     name: "git",
     icon: git,
   },
