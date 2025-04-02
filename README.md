@@ -17,11 +17,11 @@
 
 This repository contains the code of my Portfolio.
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction">🤖 About</a>
 
 The combination of creativity and technical skills showcased in this project serves as a portfolio.
 
-**Installation**
+**Installation Steps**
 
 Install the project dependencies using npm:
 
