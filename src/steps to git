@@ -1,0 +1,13 @@
+$ git pull origin main
+$ git push origin main
+$ git commit -m "Pic Changes"
+$ git status
+$ git add .
+$ git remote -v
+$ git remove origin
+$ git add origin "Write here"
+$ git config --global user.name "MohdHamizK"
+$ git config --global user.email "kattekarhamiz25@gmail.com"
+$ Ls -L
+$ git branch -a
+$ cat index.js

@@ -67,20 +67,7 @@ const FeedbackCard = ({ index, name, designation, company, image }) => {
 };
 
 const Feedbacks = () => {
-  return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
-        <div>
-          <p className={styles.sectionSubText}>What others say</p>
-          
-        </div>
-      </div>
-      <div
-        className={`-mt-20 pb-14 ${styles.paddingX} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  justify-items-center`}
-      >
-      </div>
-    </div>
-  );
+  return 
 };
 
 export default SectionWrapper(Feedbacks, "");
