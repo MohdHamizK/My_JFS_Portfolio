@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="[https://www.linkedin.com/in/mohammed-hamiz-k-5b1974272/]" target="_blank">
-      <img src="[https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6](https://github.com/MohdHamizK/Hamiz-Portfolio/blob/main/src/assets/ReadMET.png)" alt="Project Banner">
+      <img src="[https://github.com/MohdHamizK/Hamiz-Portfolio/blob/main/src/assets/ReadMET.png]" alt="Project Banner">
     </a>
   <br />
 
