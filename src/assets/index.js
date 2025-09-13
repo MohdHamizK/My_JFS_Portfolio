@@ -12,7 +12,7 @@ import mysql from './tech/mysql.png';
 import javascript from './tech/JS.jpg';
 import html from './tech/HTML.jpg';
 import python from './tech/python.png';
-import Java from './tech/Java.jpg';
+import java from './tech/java.jpg';
 import git from "./tech/git.png";
 
 
@@ -30,7 +30,7 @@ export {
   javascript,
   html,
   python,
-  Java,
+  java,
   project3,
   git
 };

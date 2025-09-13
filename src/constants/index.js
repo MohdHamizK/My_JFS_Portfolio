@@ -14,7 +14,7 @@ import {
   mysql,
   html,
   python,
-  Java,
+  java,
   git,
 
 } from '../assets'
@@ -67,7 +67,7 @@ const services = [
 const technologies = [
   {
     name: "Java",
-    icon: Java,
+    icon: java,
   },
   {
     name: "Python",
