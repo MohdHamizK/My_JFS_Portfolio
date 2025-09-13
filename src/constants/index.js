@@ -14,7 +14,7 @@ import {
   mysql,
   html,
   python,
-  java,
+  Java,
   git,
 
 } from '../assets'
@@ -67,7 +67,7 @@ const services = [
 const technologies = [
   {
     name: "Java",
-    icon: java,
+    icon: Java,
   },
   {
     name: "Python",
@@ -161,7 +161,7 @@ const projects = [
   
     ],
     image: Bank,
-    source_code_link: "https://github.com/MohdHamizK/",
+    source_code_link: "https://github.com/MohdHamizK/TransactPro_Financial_File_Analyzer",
   },
   {
     name: "Data-Warehouse-PySQL-AutoConnect",
@@ -188,7 +188,7 @@ const projects = [
       },
     ],
       image: PySQL,
-      source_code_link: "https://github.com/MohdHamizK/",
+      source_code_link: "https://github.com/MohdHamizK/Data-Warehouse-PySQL-AutoConnect",
     },
   {
     name: "Rexiz - AI Agent",
@@ -214,7 +214,7 @@ const projects = [
       },
     ],
     image: Rexiz,
-    source_code_link: "https://github.com/MohdHamizK/",
+    source_code_link: "https://github.com/MohdHamizK/Rexiz-AI/blob/main/Rexiz.png",
   },
 ];
 
