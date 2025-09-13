@@ -71,9 +71,11 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </div>
 
-      <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      "I'm an ambitious and detail-oriented individual pursuing a career in data analysis. I'm dedicated to expanding my knowledge and skills in data manipulation, SQL querying, statistical analysis and data visualization.
-       I'm a quick learner, possess strong problem-solving abilities, and am excited to embark on a career where I can contribute to data-driven success."
+      <p ref={paragraphRef} className="mt-4 text-secondary text-[18px] max-w-5xl leading-[30px]">
+      Entry-level Java Full Stack, Software Engineer with a strong foundation in Java, SQL, HTML, CSS, JavaScript supported by 
+      hands-on project work in data processing, full-stack web development, and automation. Skilled at building scalable
+      systems, writing efficient SQL queries, and designing user-friendly front-end interfaces. Adept at learning quickly,
+      problem-solving, and working collaboratively to deliver reliable IT solutions.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">

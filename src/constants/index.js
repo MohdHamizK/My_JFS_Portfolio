@@ -8,21 +8,25 @@ import {
   github,
   menu,
   close,
-  postgresql,
+  cascadess,
   project3,
-  excel,
+  javascript,
   mysql,
-  powerbi,
+  html,
   python,
+  java,
   git,
 
 } from '../assets'
 
 
-// Import Aura separately
-import Aura from "../assets/company/Aura.png";
-
-
+// Import Rexiz separately
+import Rexiz from "../assets/company/Rexiz.png";
+import Bank from "../assets/company/Bank.png";
+import PySQL from "../assets/company/PySQL.png";
+import Heal from "../assets/company/Heal.png";
+import KodNest from "../assets/company/KodNest.png";
+import OPC from "../assets/company/OPC.jpeg";
 export const navLinks = [
 
 
@@ -43,7 +47,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Python",
+    title: "Java",
     icon: web,
   },
   {
@@ -51,16 +55,20 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Power BI",
+    title: "HTML",
     icon: backend,
   },
   {
-    title: "Excel",
+    title: "CSS",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "Java",
+    icon: java,
+  },
   {
     name: "Python",
     icon: python,
@@ -70,16 +78,16 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: "Power BI",
-    icon: powerbi,
+    name: "HTML",
+    icon: html,
   },
   {
-    name: "Excel",
-    icon: excel,
+    title: "CSS",
+    icon: cascadess,
   },
   {
-    title: "PostgreSQL",
-    icon: postgresql,
+    name: "JS",
+    icon: javascript,
   },
   {
     name: "git",
@@ -91,16 +99,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Analyst Intern",
-    company_name: "Deloitte",
-    icon: Aura,
+    title: "Java Full Stack Developer Intern",
+    company_name: "KodNest Technologies",
+    icon: KodNest,
     iconBg: "#383E56",
-    date: "March 2025",
+    date: "August 2025",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Implemented speech recognition to convert voice commands into actions.",
-      "Automated system tasks like opening applications, searching the web, and managing files.",
-      "Used text-to-speech (TTS) to generate human-like responses.",
+      "Strengthened problem-solving and debugging skills through coding assignments, peer reviews, and real-time project simulations, preparing for full-stack development roles.",
+      "Collaborated with a team of developers to design and implement new features for web applications, ensuring optimal performance and user experience.",
+    ],
+  },
+  {
+    title: "Data Analyst Intern",
+    company_name: "Heal Bharat AICTE",
+    icon: Heal,
+    iconBg: "#383E56",
+    date: "June 2025",
+    points: [
+      "Performed exploratory data analysis using Python libraries to identify 3 top-selling products (20% of SKUs contributed to 65% of revenue) and customer behavior, enabling data-driven inventory and marketing decisions using the Software Development Life Cycle (SDLC).",
+      "Researched HIPAA and DISHA compliance standards and created a detailed audit framework, including system flowchart, threat checklist, and 15+ security recommendations; delivered high-quality technical documentation for secure data handling in clinical systems.", 
+    ],
+  },
+  {
+    title: "Web Development Intern",
+    company_name: "Operate Live Pvt.Ltd",
+    icon: OPC,
+    iconBg: "#383E56",
+    date: "May 2023",
+    points: [
+      "Conducted QA testing on 50+ product features and documented 25+ unique bugs, accelerating issue resolution by 20% during development contributed to test automation framework enhancements and ensured test coverage.",
+      "Improved page loading speed and layout responsiveness by 30% through coordination with design and backend teams, integrating object-oriented programming (OOP) concepts and SDLC phases from design to deployment.", 
     ],
   },
 ];
@@ -108,9 +136,65 @@ const experiences = [
 
 const projects = [
   {
-    name: "Aura - AI Personal Assistant",
-    description:
+    name: "TransactPro Engine",
+    Description: [
+      "Built a Java-based multi-threaded application that simulates a bank’s backoffice system to process large volumes of transactions in parallel.",
+      "Implemented concurrency, error handling, and data integrity checks to ensure reliability, and used Java 8 Streams for fast data analysis and reporting."
+    ],
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Exception Handling",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Collections Framework",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+  
+    ],
+    image: Bank,
+    source_code_link: "https://github.com/MohdHamizK/",
+  },
+  {
+    name: "Data-Warehouse-PySQL-AutoConnect",
+    Description: [
+      "A modular Python-based system for refreshing materialized views, querying sales data, and sending automated reports via email.",
+      "This automation streamlines data management, reduces manual effort, and empowers our team with real-time access to crucial sales information, ultimately driving better decision-making."
+      ],
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Gmail SMTP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Draw.io ERD",
+        color: "green-text-gradient",
+      },
+    ],
+      image: PySQL,
+      source_code_link: "https://github.com/MohdHamizK/",
+    },
+  {
+    name: "Rexiz - AI Agent",
+    Description: [
       "An AI assistant which executes voice commands, automate tasks, and fetch real-time data.",
+      "Implemented speech recognition to convert voice commands into actions."],
     tags: [
       {
         name: "Python",
@@ -128,10 +212,9 @@ const projects = [
         name: "Text-to-Speech",
         color: "green-text-gradient",
       },
- 
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: Rexiz,
+    source_code_link: "https://github.com/MohdHamizK/",
   },
 ];
 

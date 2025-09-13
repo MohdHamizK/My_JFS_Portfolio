@@ -1,17 +1,18 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
+import logo from "./logo.jpg";
+import backend from "./backend.jpg";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
+import web from "./web.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import postgresql from "./tech/postgresql.png";
+import cascadess from "./tech/CSS.png";
 import project3 from './project3.webp';
 import mysql from './tech/mysql.png';
-import excel from './tech/excel.png';
-import powerbi from './tech/powerbi.png';
+import javascript from './tech/JS.jpg';
+import html from './tech/HTML.jpg';
 import python from './tech/python.png';
+import java from './tech/Java.jpg';
 import git from "./tech/git.png";
 
 
@@ -24,11 +25,12 @@ export {
   github,
   menu,
   close,
-  postgresql,
+  cascadess,
   mysql,
-  excel,
-  powerbi,
+  javascript,
+  html,
   python,
+  java,
   project3,
   git
 };
