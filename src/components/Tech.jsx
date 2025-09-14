@@ -1,48 +1,54 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
+import { motion } from "framer-motion";
+import { textVariant } from "../utils/motion";
+import { styles } from "../styles";
 
 const Tech = () => {
-  useEffect(() => {
-    gsap.fromTo(
-      ".tech-icon", 
-      {
-        opacity: 0,
-        y: 80
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 2.5,
-        stagger: 0.1, 
-        scrollTrigger: {
-          trigger: ".tech-icons-wrapper", 
-          start: "top 80%", 
-          end: "bottom 70%", 
-          scrub: true, 
-        },
-      }
-    );
-  }, []);
-
   return (
-    <section>
-      <div className="tech-icons-wrapper flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <img
-              src={technology.icon}
-              alt={technology.name}
-              className="tech-icon w-full h-full object-contain"
-            />
-          </div>
-        ))}
+    <>
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText} text-center mb-10`}>
+          My Skills.
+        </h2>
+      </motion.div>
+
+      <div className='relative flex overflow-x-hidden group'>
+        <div className='flex animate-marquee group-hover:pause whitespace-nowrap'>
+          {technologies.map((technology, index) => (
+            <div
+              className='flex-shrink-0 w-28 h-28 mx-4'
+              key={`tech-a-${index}`}
+            >
+              <img
+                src={technology.icon}
+                alt={technology.name}
+                className='w-full h-full object-contain'
+              />
+            </div>
+          ))}
+        </div>
+
+        <div
+          className='flex animate-marquee group-hover:pause whitespace-nowrap'
+          aria-hidden='true'
+        >
+          {technologies.map((technology, index) => (
+            <div
+              className='flex-shrink-0 w-28 h-28 mx-4'
+              key={`tech-b-${index}`}
+            >
+              <img
+                src={technology.icon}
+                alt={technology.name}
+                className='w-full h-full object-contain'
+              />
+            </div>
+          ))}
+        </div>
       </div>
-    </section>
+    </>
   );
 };
 

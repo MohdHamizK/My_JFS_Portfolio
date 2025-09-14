@@ -11,6 +11,10 @@ import {
   cascadess,
   project3,
   javascript,
+  sql,
+  postgresql,
+  reactjs,
+  nodejs,
   mysql,
   html,
   python,
@@ -38,6 +42,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -74,10 +82,6 @@ const technologies = [
     icon: python,
   },
   {
-    name: "SQL",
-    icon: mysql,
-  },
-  {
     name: "HTML",
     icon: html,
   },
@@ -88,6 +92,26 @@ const technologies = [
   {
     name: "JS",
     icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "PSQL",
+    icon: postgresql,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "git",
